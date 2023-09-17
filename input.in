@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+	ifstream fin;
+	ofstream fout;
+	string line;
+//	fout.open("input.in");
+//	getline(cin, line);
+//	fout  << line <<" ";
+//	fout.close();
+	fin.open("input.in");
+	while(fin >> line) {
+		cout << line;
+	}
+	fin.close();
+}
